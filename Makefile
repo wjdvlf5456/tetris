@@ -1,6 +1,10 @@
 FLAGS = -Werror -std=c++11 -g
 CC = g++
 
+ifneq ($(OS),Windows_NT)
+	FLAGS += -lncurses
+endif
+
 all: main
 
 main: main.o game.o tetromino.o console.o
