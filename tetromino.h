@@ -51,8 +51,8 @@ public:
   // 테트로미노의 사이즈를 반환한다.
   int size() { return size_; }
 
-  // 회전되지 않은 원래 테트로미노 객체의 레퍼런스를 반환한다.
-  Tetromino &original() { return *original_; }
+  // 회전되지 않은 원래 테트로미노 객체의 포인터를 반환한다.
+  Tetromino *original() { return original_; }
 
   // 시계 방향으로 회전한 모습의 테트로미노 객체를 반환한다.
   Tetromino rotatedCW();
