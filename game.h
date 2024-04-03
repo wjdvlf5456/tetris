@@ -4,9 +4,6 @@
 
 #include "tetromino.h"
 
-#define SHADOW_STRING "⛶"
-#define BLOCK_STRING "■"
-
 #define BOARD_WIDTH 10
 #define BOARD_HEIGHT 20
 #define LINES 40

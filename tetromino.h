@@ -3,6 +3,9 @@
 
 #include <string>
 
+#define SHADOW_STRING "⛶"
+#define BLOCK_STRING "■"
+
 class Tetromino {
   static const int MAX_SIZE = 4;
 
