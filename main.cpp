@@ -10,6 +10,8 @@ int main() {
   Game game;
 
   while (!game.shouldExit()) {
+    console::clear();
+
     game.update();
     game.draw();
 
