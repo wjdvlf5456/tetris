@@ -54,8 +54,8 @@ public:
   // 반시계 방향으로 회전한 모습의 테트로미노 객체를 반환한다.
   Tetromino rotatedCCW();
 
-  // 화면의 x, y 위치에 테트로미노를 그린다
-  void drawAt(int x, int y);
+  // 화면의 x, y 위치에 s 문자열로  테트로미노를 그린다
+  void drawAt(std::string s, int x, int y);
 
   // 테트로미노의 좌상단 기준 x, y 위치에 블록이 있는지 여부를 나타내는 함수
   bool check(int x, int y) { return shape_[x][y]; }
