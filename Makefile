@@ -1,14 +1,15 @@
 FLAGS = -Werror -std=c++11 -g
+LINKER_FLAGS = $(FLAGS)
 CC = g++
 
 ifneq ($(OS),Windows_NT)
-	FLAGS += -lncurses
+	LINKER_FLAGS += -lncurses
 endif
 
 all: main
 
 main: main.o game.o tetromino.o console.o
-	$(CC) $(FLAGS) -o main main.o game.o tetromino.o console.o
+	$(CC) $(LINKER_FLAGS) -o main main.o game.o tetromino.o console.o
 
 console.o: console/console.cpp console/console.h
 	$(CC) $(FLAGS) -c -o console.o console/console.cpp
