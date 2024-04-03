@@ -9,9 +9,6 @@
 #define LINES 40
 
 #define DROP_DELAY 60
-#define CLEAR_DELAY 30
-#define CLEAR_ANIMATION_DELAY 10
-#define LOSE_ANIMATION_DELAY 2
 
 class Game {
 private:
