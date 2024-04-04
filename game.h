@@ -1,4 +1,3 @@
-
 #ifndef GAME_H
 #define GAME_H
 
@@ -8,7 +7,6 @@
 #define BOARD_WIDTH 10
 #define BOARD_HEIGHT 20
 #define LINES 40
-
 
 #define DROP_DELAY 60
 
@@ -21,19 +19,19 @@ private:
 public:
   // 게임의 한 프레임을 처리한다.
   void update(){
-    std::cout << "Hello World!";
+    std::cout << "Hello World!" << std::endl;
 
   };
 
   // 게임 화면을 그린다.
   void draw(){
-    std::cout << "draw";
+    std::cout << "draw" << std::endl;
 
   };
 
   // 게임 루프가 종료되어야 하는지 여부를 반환한다.
   bool shouldExit(){
-    std::cout << "shouldExit";
+    std::cout << "shouldExit" << std::endl;
 
     return false;
   };
