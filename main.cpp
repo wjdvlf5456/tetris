@@ -9,6 +9,8 @@ int main() {
 
   Game game;
 
+  int count = 0;
+
   while (!game.shouldExit()) {
     console::clear();
 

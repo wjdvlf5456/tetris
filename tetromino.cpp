@@ -1,5 +1,7 @@
 #include "tetromino.h"
+#include <iostream>
 
+/*
 Tetromino Tetromino::I("I", 4, "XXXX");
 Tetromino Tetromino::O("O", 2, "XX"
                                   "XX");
@@ -58,3 +60,4 @@ void Tetromino::drawAt(std::string s, int x, int y) {
         }
     }
 }
+*/
