@@ -1,5 +1,5 @@
 #include "game.h"
-/*
+
 Game::Game() {
     // 게임 초기화
     currentTetromino_ = Tetromino::randomTetromino();
@@ -247,4 +247,3 @@ void Game::holdTetromino() {
         holdUsed_ = true;
     }
 }
-*/
